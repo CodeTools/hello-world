@@ -1,0 +1,12 @@
+; Sample Subtracter program
+(defun subtract()
+(terpri)(terpri)
+(princ "Enter First Number:")
+(setq num1 (read))
+(princ "Enter Second Number:")
+(setq num2 (read))
+(terpri)
+(princ "Difference : ")
+(write (- num1 num2))
+)
+(subtract)

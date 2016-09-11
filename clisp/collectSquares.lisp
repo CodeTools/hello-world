@@ -1,0 +1,11 @@
+;Load and Collect Squares
+(defun load-collect-squares() 
+(terpri)
+(princ "Enter starter:")
+(setq starter (read))
+(princ "Enter ender:")
+(setq ender (read))
+(if (> ender starter) 
+ (write (loop for i from starter upto ender by 1 for j = (* i i) collect (list i j))) )
+)
+(load-collect-squares)
