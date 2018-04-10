@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Please enter your credentials
+  div
+  form(action='/',method='post')
+
+    input(id='userName',type='text',value='',placeholder='userName',name='userName')
+    br
+
+    input(id='password',type='password',value='',placeholder='passWord',name='password')
+    br
+
+    input(type='submit',value='Login')
