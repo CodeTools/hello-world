@@ -39,7 +39,7 @@ class DesEncrypter {
 
 
 
-public class Main {
+public class Main4 {
   public static void main(String[] argv) throws Exception {
     SecretKey key = KeyGenerator.getInstance("DES").generateKey();
     DesEncrypter encrypter = new DesEncrypter(key);

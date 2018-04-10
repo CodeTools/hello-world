@@ -36,9 +36,6 @@ class DesEncrypter {
   }
 }
 
-
-
-
 public class Main {
   public static void main(String[] argv) throws Exception {
     SecretKey key = KeyGenerator.getInstance("DES").generateKey();
